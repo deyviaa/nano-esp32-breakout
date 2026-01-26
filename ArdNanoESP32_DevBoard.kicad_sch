@@ -1,0 +1,144 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d23afbe7-034d-4aad-bca4-a6952912a1e5")
+	(paper "A4")
+	(title_block
+		(title "GPIO Pinout")
+		(date "2025-12-24")
+	)
+	(lib_symbols)
+	(sheet
+		(at 34.29 83.82)
+		(size 25.4 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a737bdb-d3f2-4257-9c18-bcd8a775598d")
+		(property "Sheetname" "Peripherals"
+			(at 34.29 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 34.29 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ArdNanoESP32_DevBoard"
+				(path "/d23afbe7-034d-4aad-bca4-a6952912a1e5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 68.58)
+		(size 25.4 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "430b1020-f3cb-45f3-9b04-c46f7af8d95b")
+		(property "Sheetname" "PowerRails"
+			(at 34.29 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerRails.kicad_sch"
+			(at 34.29 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ArdNanoESP32_DevBoard"
+				(path "/d23afbe7-034d-4aad-bca4-a6952912a1e5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 48.26)
+		(size 33.02 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f9d13d6f-056e-4acd-8423-4ba78ee9f6cd")
+		(property "Sheetname" "MCU_Pins_Sockets"
+			(at 34.29 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_Pins_Sockets.kicad_sch"
+			(at 34.29 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ArdNanoESP32_DevBoard"
+				(path "/d23afbe7-034d-4aad-bca4-a6952912a1e5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
