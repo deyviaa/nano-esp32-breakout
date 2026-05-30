@@ -11,3 +11,7 @@ fp-info-cache
 
 # Ignore the backups folder automatically created by KiCad
 backups/
+
+# Other untracked files
+*.DS_Store
+.history/
