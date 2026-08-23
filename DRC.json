@@ -1,0 +1,344 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-06-14T16:26:01",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "schematic_parity": [
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "Footprint <no reference designator>",
+                    "pos": {
+                        "x": 183.0,
+                        "y": 97.6
+                    },
+                    "uuid": "bbcf8094-347f-4332-999d-1f695d611154"
+                },
+                {
+                    "description": "Footprint <no reference designator>",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 97.6
+                    },
+                    "uuid": "8411bb4c-b29e-4d21-b023-04b84f4c33d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "Footprint <no reference designator>",
+                    "pos": {
+                        "x": 183.0,
+                        "y": 30.0
+                    },
+                    "uuid": "d753504f-4048-4490-a341-e13cab2fa088"
+                },
+                {
+                    "description": "Footprint <no reference designator>",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 97.6
+                    },
+                    "uuid": "8411bb4c-b29e-4d21-b023-04b84f4c33d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "Missing footprint J5 (Conn_01x04)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint J6 (Conn_01x04)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint J7 (Conn_01x04)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint D2 (LED)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint D3 (LED)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint D4 (LED)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint D5 (LED)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint LED1",
+                    "pos": {
+                        "x": 53.088002,
+                        "y": 31.099998
+                    },
+                    "uuid": "a5c2d22a-3f16-4b20-aa7e-eef6fb092af6"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint LED2",
+                    "pos": {
+                        "x": 57.425502,
+                        "y": 31.099998
+                    },
+                    "uuid": "9ecfe194-6082-43ac-bf5c-69cb26c858cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint LED3",
+                    "pos": {
+                        "x": 61.675502,
+                        "y": 31.099998
+                    },
+                    "uuid": "d91f3643-1bea-4755-8903-89ecff3610df"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint LED4",
+                    "pos": {
+                        "x": 66.088002,
+                        "y": 31.099998
+                    },
+                    "uuid": "b1c390bf-bbcb-44a5-99c5-ff701cc4374a"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint +5V",
+                    "pos": {
+                        "x": 115.96,
+                        "y": 30.06
+                    },
+                    "uuid": "22cdd8fa-3b46-4585-93c2-a023a11e7e58"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint +3V3",
+                    "pos": {
+                        "x": 151.0,
+                        "y": 97.54
+                    },
+                    "uuid": "3977dd4b-bc3a-4490-b674-58f5ee09b474"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint GND",
+                    "pos": {
+                        "x": 101.78,
+                        "y": 30.06
+                    },
+                    "uuid": "984c95d9-0581-4692-a5e1-c2faebb89064"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint <no reference designator>",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 97.6
+                    },
+                    "uuid": "8411bb4c-b29e-4d21-b023-04b84f4c33d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint <no reference designator>",
+                    "pos": {
+                        "x": 183.0,
+                        "y": 97.6
+                    },
+                    "uuid": "bbcf8094-347f-4332-999d-1f695d611154"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 30.0
+                    },
+                    "uuid": "cf1eebb6-4e31-48a8-8e3a-88e6598a5e48"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint <no reference designator>",
+                    "pos": {
+                        "x": 183.0,
+                        "y": 30.0
+                    },
+                    "uuid": "d753504f-4048-4490-a341-e13cab2fa088"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        }
+    ],
+    "source": "ArdNanoESP32_DevBoard.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Footprint 'MountingHole_3.2mm_M3_Pad' does not match copy in library 'MountingHole'",
+            "items": [
+                {
+                    "description": "Footprint <no reference designator>",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 97.6
+                    },
+                    "uuid": "8411bb4c-b29e-4d21-b023-04b84f4c33d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'MountingHole_3.2mm_M3_Pad' does not match copy in library 'MountingHole'",
+            "items": [
+                {
+                    "description": "Footprint <no reference designator>",
+                    "pos": {
+                        "x": 183.0,
+                        "y": 97.6
+                    },
+                    "uuid": "bbcf8094-347f-4332-999d-1f695d611154"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'MountingHole_3.2mm_M3_Pad' does not match copy in library 'MountingHole'",
+            "items": [
+                {
+                    "description": "Footprint <no reference designator>",
+                    "pos": {
+                        "x": 183.0,
+                        "y": 30.0
+                    },
+                    "uuid": "d753504f-4048-4490-a341-e13cab2fa088"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

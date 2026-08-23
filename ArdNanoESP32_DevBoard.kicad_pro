@@ -260,16 +260,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|1384300|698500|fee9df4d-3150-4e93-ae1a-c1be016320fa|00000000-0000-0000-0000-000000000000|/d23afbe7-034d-4aad-bca4-a6952912a1e5/f9d13d6f-056e-4acd-8423-4ba78ee9f6cd|/d23afbe7-034d-4aad-bca4-a6952912a1e5/f9d13d6f-056e-4acd-8423-4ba78ee9f6cd|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1562100|1206500|faf284ea-698a-4011-a4af-d6ed2ba7fdaf|00000000-0000-0000-0000-000000000000|/d23afbe7-034d-4aad-bca4-a6952912a1e5/f9d13d6f-056e-4acd-8423-4ba78ee9f6cd|/d23afbe7-034d-4aad-bca4-a6952912a1e5/f9d13d6f-056e-4acd-8423-4ba78ee9f6cd|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -518,11 +509,22 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.25,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -530,14 +532,27 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VUSB"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
